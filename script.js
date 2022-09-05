@@ -20,16 +20,25 @@ updateNumbers(limit);
 easy.addEventListener('click', function () {
   limit = 10;
   updateNumbers(limit);
+  inputEl.style.borderColor = "#008000";
+  btn.style.backgroundColor = "#008000"
+  scoreEl.style.color = "#008000";
 });
 
 medium.addEventListener('click', function () {
   limit = 100;
   updateNumbers(limit);
+  inputEl.style.borderColor = "#0044a9";
+  btn.style.backgroundColor = "#0044a9"
+  scoreEl.style.color = "#0044a9";
 });
 
 hard.addEventListener('click', function () {
   limit = 1000;
   updateNumbers(limit);
+  inputEl.style.borderColor = "#9a0000";
+  btn.style.backgroundColor = "#9a0000"
+  scoreEl.style.color = "#9a0000";
 });
 // check validations and correct answers 
 btn.addEventListener('click', validation);
