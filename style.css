@@ -8,7 +8,6 @@ body {
     flex: 1;
     width: 100%;
     height: 100vh;
-    background-color: #FAF0BF;
     background-color: yellow;
     user-select: none;
     flex-direction: column;
@@ -38,7 +37,7 @@ body {
     font-family: cursive;
     border-radius: 4px;
     outline: none;
-    color: green;
+    /* color: green; */
     font-weight: 700;
     letter-spacing: 1px;
     color: grey;
@@ -107,18 +106,19 @@ input::-webkit-inner-spin-button {
     letter-spacing: 1px;
     position: relative;
     overflow: hidden;
+    color: white;
 }
 
 #easy {
-    background-color: #FFC0CB;
+    background-color: #008000;
 }
 
 #medium {
-    background-color: #FA8072;
+    background-color: #0044a9;
 }
 
 #hard {
-    background-color: #FF4500;
+    background-color: #9a0000;
 }
 
 .category span {
@@ -139,11 +139,11 @@ input::-webkit-inner-spin-button {
 }
 
 #easy::before {
-    background-color: #ff617b;
+    background-color: #00aa00;
 }
 
 #medium::before {
-    background-color: #fc3d28;
+    background-color: #005FFF;
 }
 
 #hard::before {
